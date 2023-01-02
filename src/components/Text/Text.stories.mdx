@@ -1,0 +1,18 @@
+import { Meta, ArgsTable, Canvas, Story } from "@storybook/addon-docs";
+import Text from "./Text";
+
+<Meta title="Components/Text" component={Text} />
+
+# Text
+
+Lorem Ipsum
+
+<ArgsTable of={Text} />
+
+## Default example
+
+<Canvas>
+  <Story name="Default example" args={{ children: "My default example" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
