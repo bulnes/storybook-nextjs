@@ -30,7 +30,7 @@ const StyledButton = styled.button<ButtonProps>`
 
 export default function Button({ children, ...props }: ButtonProps) {
   return (
-    <StyledButton type="button" {...props}>
+    <StyledButton {...props}>
       {children}
     </StyledButton>
   )
